@@ -1,21 +1,5 @@
-###### What is Tinder? (oh dude..)
+# br.com.ibm.bluehack2017.nowaste
+It´s a Agro project to avoid waste of food.
 
-Complete Tinder UI is work in Progress
-
-- UI
-- Messages
-- Swipe
-- Profile
-
-![alt tag](animate_3.gif)
-![alt tag](animate_2.gif)
-![alt tag](animate_1.gif)
-![alt tag](animate.gif)
-
-###### Pull Requests Welcome
-
-###### Credits
-
-- Swipe: https://github.com/loringdodge/ionic-ion-tinder-cards-2
-- Chat: http://codepen.io/rossmartin/pen/XJmpQr
-
+We´re creating a new way of exchange that will be a new trend between people that get a lot of food waste.
+Tools: IONIC, HTML, CSS, JS, JSON, PS, INCKSCAPE
