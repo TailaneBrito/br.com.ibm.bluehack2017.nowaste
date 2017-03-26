@@ -1,0 +1,46 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title color-green">Você está apenas recendo!</h1>
+    <button class="button button-clear button-assertive color-green" ng-click="hideSettings()">
+      Fechar
+    </button>
+  </ion-header-bar>
+  <ion-content class="bg-color-white">
+    <div class="list">
+
+      <div class="row">
+
+      <div id="bg" style="background-color: white;">
+          <div id="search-container">
+            <div id="search-bg" style="background-color: white;"></div>
+            <div id="search" style="height:{{deviceHeight}}px;">
+              <h1>Receber Comida!</h1>
+              <p class="font-default">Você está esperando por comida!</p>
+              <div class="text-center" style="margin-top:45px;">
+
+              </div>
+              <p class="font-default">Veja o ponto mais fequente por onde você passou!</p>
+              <div class="text-center" style="margin-top:45px;">
+                <div class="bbt profile-edit-container">
+                  <img class="img-rounded clip-top-right" ng-src="img/map.png" alt="" width="100%" heigth="100%"  ng-click="addPhotos()">
+
+                </div>
+
+              </div>
+
+              <div class="text-center match-buttons" >
+                <button ng-click="hideMatch();slideTo(2)" class="button button-block button-stable button-outline"><i class="ion-chatbubbles font-130"></i> Send Message</button>
+                <button ng-click="hideMatch()" class="button button-block button-stable button-outline" style="margin-top:17px;"><i class="ion-ios-browsers font-130"></i> Keep Playing</button>
+              </div>
+              <div class="text-center" style="margin-top:0px;">
+                <button class="button button-block button-clear button-stable font-default"><i class="ion-share font-130"></i> Tell Your Friends</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </ion-content>
+</ion-modal-view>

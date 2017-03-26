@@ -1,0 +1,50 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title color-green">Trocar Comida</h1>
+    <button class="button button-clear button-assertive color-green" ng-click="hideSettings()">
+      Fechar
+    </button>
+  </ion-header-bar>
+  <ion-content class="bg-color-stable" style="background-color: white;">
+    <div class="list">
+
+      <div class="row">
+
+      <div id="bg" style="background-color: white;">
+          <div id="search-container">
+            <div id="search-bg"></div>
+            <div id="search"  class="hg" style="height:{{deviceHeight}}px;">
+              <h1>Possível Troca!</h1>
+              <p class="font-default">Tailane Passou por você a 200 metros 2 minutos atrás!</p>
+              <div class="text-center" style="margin-top:45px;">
+                <img ng-src="img/luana.jpg" style="margin-right:10px;" height="130" width="130" class="img-matched animated bounceInLeft" alt="">
+                <img ng-src="img/tailane.jpg" height="130" width="130" class="img-matched animated bounceInRight" alt="">
+
+                <div class="bbt profile-edit-container">
+                  <img class="img-rounded clip-top-right" ng-src="img/batata.jpg" alt="" width="100%" heigth="100%"  ng-click="addPhotos()">
+                </div>
+
+              </div>
+              <p class="font-default">Veja o ponto mais fequente de vocês!</p>
+              <div class="text-center" style="margin-top:5px;">
+                <div class="bbt profile-edit-container">
+                  <img class="img-rounded clip-top-right" ng-src="img/map.png" alt="" width="100%" heigth="100%"  ng-click="addPhotos()">
+                </div>
+              </div>
+
+              <div class="text-center match-buttons" style="margin-top-20px" >
+                <button ng-click="hideMatch();slideTo(2)" class="button button-block button-stable button-outline"><i class="font-130"></i>Enviar Mensagem</button>
+                <button ng-click="hideMatch()" class="button button-block button-stable button-outline" style="margin-top:17px;"><i class="font-130"></i>Comtinuar Buscando</button>
+              </div>
+              <div class="text-center" style="margin-top:5px;">
+                <button class="button button-block button-clear button-stable font-default"><i class="ion-share font-130"></i>Conte ao seus amigos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </ion-content>
+</ion-modal-view>
